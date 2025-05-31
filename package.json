@@ -1,0 +1,30 @@
+{
+  "name": "laboratorio-2-v-2",
+  "version": "1.0.0",
+  "description": "Laboratorio de verificacion y validacion",
+  "keywords": [
+    "verificacion",
+    "validacion"
+  ],
+  "license": "ISC",
+  "author": "Trejo Alex",
+  "type": "commonjs",
+  "main": "./src/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint . && echo \"No se detectaron errores\"",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.28.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
